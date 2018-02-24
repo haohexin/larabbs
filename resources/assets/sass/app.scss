@@ -85,7 +85,7 @@ body {
   .nav-tabs {
     margin-bottom: 20px;
 
-    >li.active > a {
+    > li.active > a {
       background-color: #fff;
     }
   }
@@ -116,7 +116,7 @@ body {
 }
 
 /* Topic Index Page */
-.topics-index-page, .categories-show-page{
+.topics-index-page, .categories-show-page, .root-page {
   .topic-list {
     .nav > li > a {
       position: relative;
@@ -128,7 +128,7 @@ body {
       color: #444444;
     }
     .meta {
-      font-size:0.9em;
+      font-size: 0.9em;
       color: #b3b3b3;
       a {
         color: #b3b3b3;
@@ -178,7 +178,6 @@ body {
     color: #b3b3b3;
   }
 }
-
 
 /* Notifications badge */
 
